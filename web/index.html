@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<!--
+ * Copyright (c) 2018, Xyneex Technologies. All rights reserved.
+ * DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS FILE HEADER.
+ *
+ * You are not meant to edit or modify this source code unless you are
+ * authorized to do so.
+ *
+ * Please contact Xyneex Technologies, #1 Orok Orok Street, Calabar, Nigeria.
+ * or visit www.xyneex.com if you need additional information or have any
+ * questions.
+-->
+<html>
+    <head>
+        <title style="color: red">TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            .field {
+                margin-bottom: 10px;
+            }
+            form#sign-up {
+                width: 500px;
+            }
+            .label-column {
+                text-align: right;
+            }
+        </style>
+        <link rel="stylesheet" href="bootstrap-5.3.0-alpha1-dist/css/bootstrap.min.css"/>
+    </head>
+    <body>
+        <h1>Please login your details here</h1>
+        <form id="sign-up" action="sign-up" method="POST">
+            <div class="container">
+                <div class="row field">
+                    <div class="col label-column">
+                        <label>First Name:</label>
+                    </div>
+                    <div class="col">
+                        <input class="form-control" type="text" name="First Name" placeholder="Enter first name"/>
+                    </div>
+                </div>
+                <div class="row field">
+                    <div class="col label-column">
+                        <label>Last Name:</label>
+                    </div>
+                    <div class="col">
+                        <input class="form-control" type="text" name="Last Name" placeholder="Enter Last name"/>
+                    </div>
+                </div>
+                <div class="row field">
+                    <div class="col label-column">
+                        <label>Email:</label>
+                    </div>
+                    <div class="col">
+                        <input class="form-control" type="text" name="Email" placeholder="Enter your email"/>
+                    </div>
+                </div>
+                <div class="row field">
+                    <div class="col label-column">
+                        <label>Username:</label>
+                    </div>
+                    <div class="col">
+                        <input class="form-control" type="text" name="Username" placeholder="Enter username">
+                    </div>
+                </div>
+                <div class="row field">
+                    <div class="col label-column">
+                        <label>Password:</label>
+                    </div>
+                    <div class="col">
+                        <input class="form-control" type="text" name="Username" placeholder="Enter username"/>
+                    </div>
+                </div>
+                <div class="row field">
+                    <div class="col label-column">
+
+                    </div>
+                    <div class="col">
+                        <button type="submit" class="btn btn-success">Sign up</button>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </body>
+</html>
